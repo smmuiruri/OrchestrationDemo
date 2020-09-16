@@ -12,4 +12,4 @@ LABEL maintainer="Moringa School <moringaschool.com>"
 RUN npm install redis
 
 # Copy the source code to the Docker image
-ADD example.js /myapp/example.js
+ADD composeHelper.js /myapp/composeHelper.js
